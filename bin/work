@@ -3,13 +3,13 @@
 # Usage: work <dirname in ~/Documents/Projecten directory>
 
 # Define project location
-PROJECT=$HOME/Documents/Projecten/$@
+PROJECT=$HOME/Projects/$@
 
 # Open Sourcetree project
 open -a SourceTree $PROJECT
 
-# Open PhpStorm project
-open -a /Applications/PhpStorm.app $PROJECT
+# Open Code project
+code $PROJECT
 
 # Stop all running virtual machines
 vagrant halt all

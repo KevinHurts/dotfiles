@@ -10,10 +10,6 @@ tap 'homebrew/php'
 brew 'zsh'
 brew 'zsh-completions'
 
-# Vim related
-brew 'the_silver_searcher'
-brew 'fzf'
-
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
 
@@ -47,14 +43,10 @@ cask 'alfred'
 cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
-cask 'gpgtools'
 cask 'iterm2'
 cask 'java'
-cask 'phpstorm'
 cask 'sequel-pro'
-cask 'shuttle'
 cask 'slack'
-cask 'sublime-text'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
@@ -82,6 +74,3 @@ cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
 mas 'Gapplin', id: 768053424
-mas 'Unsplash Wallpapers', id: 1284863847
-mas 'Keynote', id: 409183694
-mas 'Wunderlist', id: 410628904

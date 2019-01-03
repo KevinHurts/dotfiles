@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="cloud"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -52,7 +52,19 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(composer git git-extras httpie github npm sublime vagrant  zsh-autosuggestions alias-tips)
+plugins=(
+  git
+  git-extras
+  github
+  npm
+  vagrant
+  up
+  zsh-256color
+  git-flow-completion
+  alias-tips
+  zsh-syntax-highlighting
+  Hacker-quotes
+)
 
 # Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
