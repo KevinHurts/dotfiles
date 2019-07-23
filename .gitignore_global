@@ -37,6 +37,7 @@ ehthumbs.db
 Thumbs.db
 .idea/
 .vagrant/
+Vagantfile
 
 #node versions nvm
 
